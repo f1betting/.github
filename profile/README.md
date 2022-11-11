@@ -30,10 +30,17 @@ This project contains the repositories for the research part of my internship ab
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### 🚧 Built With
-
+API's:
 * [![Python]][Python-url]
 * [![FastAPI]][FastAPI-url]
 * [![MongoDB]][MongoDB-url]
+
+Web application:
+* [![Yarn]][Yarn-url]
+* [![Vite]][Vite-url]
+* [![Vue.js]][Vue.js-url]
+* [![Typescript]][Typescript-url]
+* [![Tailwind]][Tailwind-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -72,3 +79,23 @@ Distributed under the MIT License. See `LICENSE.md` under each repository for mo
 [MongoDB]: https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white
 
 [MongoDB-url]: https://www.mongodb.com/
+
+[Yarn]: https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white
+
+[Yarn-url]: https://yarnpkg.com/
+
+[Vite]: https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white
+
+[Vite-url]: https://vitejs.dev/
+
+[Vue.js]: https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D
+
+[Vue.js-url]: https://vuejs.org/
+
+[Typescript]: https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white
+
+[Typescript-url]: https://www.typescriptlang.org/
+
+[Tailwind]: https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white
+
+[Tailwind-url]: https://tailwindcss.com/
