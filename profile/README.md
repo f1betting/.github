@@ -35,7 +35,7 @@ This project contains the repositories for the research part of my internship ab
 
 ### 🚧 Built With
 
-API's:
+APIs:
 
 * [![Python]][Python-url]
 * [![FastAPI]][FastAPI-url]
