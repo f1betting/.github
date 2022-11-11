@@ -19,6 +19,9 @@
 - [ℹ️ About The Project](#-about-the-project)
     - [🚧 Built With](#built-with)
 - [🚀 Usage ](#-usage)
+- [🏛️ Architecture ](#-architecture)
+    - [🚜 Basic architecture](#-basic-architecture)
+    - [🏎️ Advanced architecture](#-advanced-architecture)
 - [📜 License](#-license)
 
 <!-- ABOUT THE PROJECT -->
@@ -30,12 +33,15 @@ This project contains the repositories for the research part of my internship ab
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### 🚧 Built With
+
 API's:
+
 * [![Python]][Python-url]
 * [![FastAPI]][FastAPI-url]
 * [![MongoDB]][MongoDB-url]
 
 Web application:
+
 * [![Yarn]][Yarn-url]
 * [![Vite]][Vite-url]
 * [![Vue.js]][Vue.js-url]
@@ -49,7 +55,46 @@ Web application:
 
 ## 🚀 Usage
 
-To view more information about each project, please check out every individual repositories' ``README.md`` to learn more about each project.
+To view more information about each project, please check out every individual repositories' ``README.md`` to learn more
+about each project.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- ARCHITECTURE EXAMPLES -->
+
+## 🏛️ Architecture
+
+The recommended way to deploy the full application is by using an API gateway. This allows for detailed logging &
+metrics, as well as extra security.
+
+### 🚜 Basic architecture
+
+The basic architecture does not utilize an API gateway. Instead, all the API's call eachother directly. This is the
+easiest way to get started.
+
+The MongoDB database can be run using Docker or you can use a cloud environment such as MongoDB Atlas.
+
+<img src="docs/architecture_basic.jpg">
+
+### 🏎️ Advanced architecture
+
+Alternatively you could use an API gateway such as [KrakenD](https://www.krakend.io/)
+or [Gravitee](https://www.gravitee.io/). This allows for detailed logging &
+metrics, as well as extra security.
+
+The MongoDB database can be run using Docker or you can use a cloud environment such as MongoDB Atlas.
+
+<img src="docs/architecture_gateway.jpg">
+
+_Note that the F1Betting and F1API APIs communicate to each other through the gateway._
+
+### 📊 Sequence diagram
+
+Below is a sequence diagram that utilizes the gateway architecture. The processes shown here are the sign-in process
+(flow 1) and the process of creating a new bet (flow 2).
+
+<img src="docs/sequence_diagram.png">
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -76,7 +121,9 @@ Distributed under the MIT License. See `LICENSE.md` under each repository for mo
 
 [FastAPI-url]: https://fastapi.tiangolo.com/
 
-[MongoDB]: https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white
+[MongoDB]: https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColo
+
+r=white
 
 [MongoDB-url]: https://www.mongodb.com/
 
