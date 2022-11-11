@@ -22,6 +22,7 @@
 - [🏛️ Architecture ](#-architecture)
     - [🚜 Basic architecture](#-basic-architecture)
     - [🏎️ Advanced architecture](#-advanced-architecture)
+    - [📊 Sequence diagram](#-sequence-diagram)
 - [📜 License](#-license)
 
 <!-- ABOUT THE PROJECT -->
