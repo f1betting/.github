@@ -75,7 +75,7 @@ easiest way to get started.
 
 The MongoDB database can be run using Docker or you can use a cloud environment such as MongoDB Atlas.
 
-<img src="docs/architecture_basic.jpg">
+<img src="../docs/architecture_basic.jpg">
 
 ### 🏎️ Advanced architecture
 
@@ -85,7 +85,7 @@ metrics, as well as extra security.
 
 The MongoDB database can be run using Docker or you can use a cloud environment such as MongoDB Atlas.
 
-<img src="docs/architecture_gateway.jpg">
+<img src="../docs/architecture_gateway.jpg">
 
 _Note that the F1Betting and F1API APIs communicate to each other through the gateway._
 
@@ -94,7 +94,7 @@ _Note that the F1Betting and F1API APIs communicate to each other through the ga
 Below is a sequence diagram that utilizes the gateway architecture. The processes shown here are the sign-in process
 (flow 1) and the process of creating a new bet (flow 2).
 
-<img src="docs/sequence_diagram.png">
+<img src="../docs/sequence_diagram.png">
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
