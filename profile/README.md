@@ -86,7 +86,7 @@ metrics, as well as extra security.
 
 The MongoDB database can be run using Docker or you can use a cloud environment such as MongoDB Atlas.
 
-<img src="https://github.com/f1betting/.github/raw/main/docs/architecture_basic.jpg">
+<img src="https://github.com/f1betting/.github/blob/main/docs/architecture_gateway.jpg">
 
 _Note that the F1Betting and F1API APIs communicate to each other through the gateway._
 
