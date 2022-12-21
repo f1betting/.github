@@ -18,6 +18,11 @@
 
 - [ℹ️ About The Project](#-about-the-project)
     - [🚧 Built With](#built-with)
+- [🚦 Repository statuses](#-repository-statuses)
+    - [🐙 OpenAPItoKrakenD](#-openapitokrakend)
+    - [🏆 F1Betting](#-f1betting)
+    - [🚗 F1API](#-f1api)
+    - [💻 F1FrontEnd](#-f1frontend)
 - [🚀 Usage ](#-usage)
 - [🏛️ Architecture ](#-architecture)
     - [🚜 Basic architecture](#-basic-architecture)
@@ -54,6 +59,54 @@ Automation and deployment:
 * [![GitHub-Actions]][GitHub-Actions-url]
 * [![Google-Cloud]][Google-Cloud-url]
 * [![Krakend]][Krakend-url]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- REPOSITORY STATUS -->
+
+## 🚦 Repository statuses
+
+### 🐙 OpenAPItoKrakenD
+
+A tool to batch-convert OpenAPI 3.0 files to a flexible KrakenD configuration
+
+<img alt="SonarCloud coverage" src="https://sonarcloud.io/api/project_badges/measure?project=f1betting_OpenAPItoKrakenD&metric=coverage">
+<img alt="SonarCloud quality gate" src="https://sonarcloud.io/api/project_badges/measure?project=f1betting_OpenAPItoKrakenD&metric=alert_status">
+<img alt="SonarCloud code smells" src="https://sonarcloud.io/api/project_badges/measure?project=f1betting_OpenAPItoKrakenD&metric=code_smells">
+<img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/f1betting/OpenAPItoKrakenD/python_on_push_master.yml?label=Build&branch=main">
+
+### 🏆 F1Betting
+
+An API to do bets with your friends about F1 race results!
+
+<img alt="GitHub tag (latest by date)" src="https://img.shields.io/github/v/tag/f1betting/f1betting?label=Version">
+<img alt="Docker version" src="https://img.shields.io/docker/v/nieko3/f1betting/latest?label=Docker%20version">
+<br>
+<img alt="SonarCloud coverage" src="https://sonarcloud.io/api/project_badges/measure?project=f1betting_F1Betting&metric=coverage">
+<img alt="SonarCloud quality gate" src="https://sonarcloud.io/api/project_badges/measure?project=f1betting_F1Betting&metric=alert_status">
+<img alt="SonarCloud code smells" src="https://sonarcloud.io/api/project_badges/measure?project=f1betting_F1Betting&metric=code_smells">
+<img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/f1betting/F1Betting/python_on_push_master.yml?label=Build&branch=main">
+
+### 🚗 F1API
+
+A more user-friendly way to use ergast.com
+
+<img alt="GitHub tag (latest by date)" src="https://img.shields.io/github/v/tag/f1betting/f1api?label=Version">
+<img alt="Docker version" src="https://img.shields.io/docker/v/nieko3/f1api/latest?label=Docker%20version">
+<br />
+<img alt="SonarCloud coverage" src="https://sonarcloud.io/api/project_badges/measure?project=f1betting_F1API&metric=coverage">
+<img alt="SonarCloud quality gate" src="https://sonarcloud.io/api/project_badges/measure?project=f1betting_F1API&metric=alert_status">
+<img alt="SonarCloud code smells" src="https://sonarcloud.io/api/project_badges/measure?project=f1betting_F1API&metric=code_smells">
+<img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/f1betting/F1API/python_on_push_master.yml?label=Build&branch=main">
+
+### 💻 F1FrontEnd
+
+A basic front-end to interact with the F1Betting API
+
+<img alt="SonarCloud coverage" src="https://sonarcloud.io/api/project_badges/measure?project=f1betting_F1FrontEnd&metric=coverage">
+<img alt="SonarCloud quality gate" src="https://sonarcloud.io/api/project_badges/measure?project=f1betting_F1FrontEnd&metric=alert_status">
+<img alt="SonarCloud code smells" src="https://sonarcloud.io/api/project_badges/measure?project=f1betting_F1FrontEnd&metric=code_smells">
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
