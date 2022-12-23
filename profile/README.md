@@ -20,6 +20,8 @@
     - [🚧 Built With](#built-with)
 - [🚦 Repository statuses](#-repository-statuses)
     - [🐙 OpenAPItoKrakenD](#-openapitokrakend)
+    - [☁️ OpenAPItoKrakenD-cloud-run](#-openapitokrakend-cloud-run)
+    - [💉 krakend-cloud-run-service-account](#-krakend-cloud-run-service-account)
     - [🏆 F1Betting](#-f1betting)
     - [🚗 F1API](#-f1api)
     - [💻 F1FrontEnd](#-f1frontend)
@@ -82,7 +84,7 @@ A tool to batch-convert OpenAPI 3.0 files to a flexible KrakenD configuration
   <img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/f1betting/OpenAPItoKrakenD/python_on_push_master.yml?label=Build&branch=main">
 </div>
 
-### 🐙 [OpenAPItoKrakenD-cloud-run](https://github.com/f1betting/OpenAPItoKrakenD-cloud-run)
+### ☁️ [OpenAPItoKrakenD-cloud-run](https://github.com/f1betting/OpenAPItoKrakenD-cloud-run)
 
 A fork of [OpenAPItoKrakenD](https://github.com/f1betting/OpenAPItoKrakenD) which works with the
 [krakend-cloud-run-service-account](https://github.com/f1betting/krakend-cloud-run-service-account) plugin
