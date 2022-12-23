@@ -67,9 +67,13 @@ Automation and deployment:
 
 ## 🚦 Repository statuses
 
-### 🐙 OpenAPItoKrakenD
+### 🐙 [OpenAPItoKrakenD](https://github.com/f1betting/OpenAPItoKrakenD)
 
 A tool to batch-convert OpenAPI 3.0 files to a flexible KrakenD configuration
+
+<div>
+  <img alt="GitHub Latest Version" src="https://img.shields.io/github/v/release/f1betting/OpenAPItoKrakenD?label=Latest%20release&style=flat">
+</div>
 
 <div>
   <img alt="SonarCloud coverage" src="https://sonarcloud.io/api/project_badges/measure?project=f1betting_OpenAPItoKrakenD&metric=coverage">
@@ -78,7 +82,35 @@ A tool to batch-convert OpenAPI 3.0 files to a flexible KrakenD configuration
   <img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/f1betting/OpenAPItoKrakenD/python_on_push_master.yml?label=Build&branch=main">
 </div>
 
-### 🏆 F1Betting
+### 🐙 [OpenAPItoKrakenD-cloud-run](https://github.com/f1betting/OpenAPItoKrakenD-cloud-run)
+
+A fork of [OpenAPItoKrakenD](https://github.com/f1betting/OpenAPItoKrakenD) which works with the
+[krakend-cloud-run-service-account](https://github.com/f1betting/krakend-cloud-run-service-account) plugin
+
+<div>
+  <img alt="GitHub Latest Version" src="https://img.shields.io/github/v/release/f1betting/OpenAPItoKrakenD-cloud-run?label=Latest%20release&style=flat">
+</div>
+
+<div>
+  <img alt="SonarCloud coverage" src="https://sonarcloud.io/api/project_badges/measure?project=f1betting_OpenAPItoKrakenD-cloud-run&metric=coverage">
+  <img alt="SonarCloud quality gate" src="https://sonarcloud.io/api/project_badges/measure?project=f1betting_OpenAPItoKrakenD-cloud-run&metric=alert_status">
+  <img alt="SonarCloud code smells" src="https://sonarcloud.io/api/project_badges/measure?project=f1betting_OpenAPItoKrakenD-cloud-run&metric=code_smells">
+  <img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/f1betting/OpenAPItoKrakenD-cloud-run/python_on_push_master.yml?label=Build&branch=main">
+</div>
+
+### 💉 [krakend-cloud-run-service-account](https://github.com/f1betting/krakend-cloud-run-service-account)
+
+A KrakenD plugin which injects a Google Service Account in the Authorization header
+
+<div>
+  <img alt="GitHub Latest Version" src="https://img.shields.io/github/v/release/f1betting/krakend-cloud-run-service-account?label=Latest%20release&style=flat">
+</div>
+
+<div>
+    <img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/f1betting/krakend-cloud-run-service-account/action-build-plugin.yml?label=Build&branch=main">
+</div>
+
+### 🏆 [F1Betting](https://github.com/f1betting/F1Betting)
 
 An API to do bets with your friends about F1 race results!
 
@@ -94,7 +126,7 @@ An API to do bets with your friends about F1 race results!
   <img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/f1betting/F1Betting/python_on_push_master.yml?label=Build&branch=main">
 </div>
 
-### 🚗 F1API
+### 🚗 [F1API](https://github.com/f1betting/F1API)
 
 A more user-friendly way to use ergast.com
 
@@ -110,7 +142,7 @@ A more user-friendly way to use ergast.com
   <img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/f1betting/F1API/python_on_push_master.yml?label=Build&branch=main">
 </div>
 
-### 💻 F1FrontEnd
+### 💻 [F1FrontEnd](https://github.com/f1betting/F1FrontEnd)
 
 A basic front-end to interact with the F1Betting API
 
