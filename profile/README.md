@@ -21,7 +21,6 @@
 - [🚦 Repository statuses](#-repository-statuses)
     - [🐙 OpenAPItoKrakenD](#-openapitokrakend)
     - [☁️ OpenAPItoKrakenD-cloud-run](#-openapitokrakend-cloud-run)
-    - [💉 krakend-cloud-run-service-account](#-krakend-cloud-run-service-account)
     - [🏆 F1Betting](#-f1betting)
     - [🚗 F1API](#-f1api)
     - [💻 F1FrontEnd](#-f1frontend)
@@ -82,22 +81,6 @@ A tool to batch-convert OpenAPI 3.0 files to a flexible KrakenD configuration
   <img alt="SonarCloud quality gate" src="https://sonarcloud.io/api/project_badges/measure?project=f1betting_OpenAPItoKrakenD&metric=alert_status">
   <img alt="SonarCloud code smells" src="https://sonarcloud.io/api/project_badges/measure?project=f1betting_OpenAPItoKrakenD&metric=code_smells">
   <img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/f1betting/OpenAPItoKrakenD/python_on_push_master.yml?label=Build&branch=main">
-</div>
-
-### ☁️ [OpenAPItoKrakenD-cloud-run](https://github.com/f1betting/OpenAPItoKrakenD-cloud-run)
-
-A fork of [OpenAPItoKrakenD](https://github.com/f1betting/OpenAPItoKrakenD) which works with the
-[krakend-cloud-run-service-account](https://github.com/f1betting/krakend-cloud-run-service-account) plugin
-
-<div>
-  <img alt="GitHub Latest Version" src="https://img.shields.io/github/v/release/f1betting/OpenAPItoKrakenD-cloud-run?label=Latest%20release&style=flat">
-</div>
-
-<div>
-  <img alt="SonarCloud coverage" src="https://sonarcloud.io/api/project_badges/measure?project=f1betting_OpenAPItoKrakenD-cloud-run&metric=coverage">
-  <img alt="SonarCloud quality gate" src="https://sonarcloud.io/api/project_badges/measure?project=f1betting_OpenAPItoKrakenD-cloud-run&metric=alert_status">
-  <img alt="SonarCloud code smells" src="https://sonarcloud.io/api/project_badges/measure?project=f1betting_OpenAPItoKrakenD-cloud-run&metric=code_smells">
-  <img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/f1betting/OpenAPItoKrakenD-cloud-run/python_on_push_master.yml?label=Build&branch=main">
 </div>
 
 ### 💉 [krakend-cloud-run-service-account](https://github.com/f1betting/krakend-cloud-run-service-account)
